@@ -1,6 +1,6 @@
 // Write your solution in this file!
 
-let employee = { name: 'John Doe', streetAddress: '123 Main St'};
+let employee = { name: 'Sam', streetAddress: '11 Broadway'};
 
 function updateEmployeeWithKeyAndValue(employee, key, value) {
     return { ...employee, [key]: value };
